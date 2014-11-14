@@ -1,0 +1,22 @@
+int x=0;
+int val=10;
+int y=0;
+
+void setup (){
+size (400,400);
+
+}
+
+void draw (){
+
+  if (mouseX<200) {
+  strokeWeight (random (10));
+background (60,20,17,150);
+ellipse (random(400),200, random(200),200);
+  }
+  else {
+  background (76,35,43,150);
+line (0,random (400),400,random(400));
+x=x+val;
+}
+}
